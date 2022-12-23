@@ -6,7 +6,7 @@ st.title('**:blue[TEST]**      :computer:')
 
 
 title = st.text_input('Add your text here 👇:')
-st.write( "You've entered:", title)
+st.write( title)
 
 def convert_list(title):
     lst = list(title.split())  #the string is converted to a list
