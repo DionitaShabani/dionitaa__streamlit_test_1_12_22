@@ -13,8 +13,8 @@ def convert_list(title):
     return lst
 
 prnt = convert_list(title) 
-if st.button('Return list'):
-    st.write(prnt, 'The string is converted to a list')                  #this button shows the list
+if st.button('	:large_blue_square:, Return list'):
+    st.write(prnt, '_The string is converted to a list_')                  #this button shows the list
 
 
 
@@ -26,7 +26,7 @@ def convert_upper(prnt): #this function converts all elements of list created ab
 
 prnt_upper = convert_upper(prnt)
 if st.button('Upper'):
-    st.write(prnt_upper, 'All elements of the list are converted to uppercase') #this prints the elements all in uppercase
+    st.write(prnt_upper, '_All elements of the list are converted to uppercase_') #this prints the elements all in uppercase
 
 
 
@@ -37,4 +37,4 @@ def count(prnt):  #counts all elements of the list
     return counter
 prnt_count = count(prnt)
 if st.button('Print_count'):
-    st.write('The total number of elements in the list above is:',prnt_count)
+    st.write('_The total number of elements in the list above is:_',prnt_count)
