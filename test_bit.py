@@ -37,5 +37,5 @@ def count(prnt):  #counts all elements of the list
     return counter
 prnt_count = count(prnt)
 if st.button('Print_count'):
-    st.write('_The total number of elements in the list above is:_',prnt_count, st.success('Success message'))
+    st.write('_The total number of elements in the list above is:_',prnt_count,)
     
